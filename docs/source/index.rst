@@ -23,7 +23,7 @@ Bill of Materials
    :widths: 25 25 50
    :header-rows: 1
 
-* - Part Name 
+ * - Part Name 
    - Raspberry Pi Pico W
    - MPU6050
    - 1S 360mAh Lipo Battery
@@ -37,7 +37,7 @@ Bill of Materials
    - BMP 280
    - 1S Lipo charger
 
-* - Quantity
+ * - Quantity
    - 1
    - 1
    - 1
@@ -52,7 +52,7 @@ Bill of Materials
    - 1
    - 1
 
-* - Link 
+ * - Link 
    - https://robu.in/product/raspberry-pi-pico-w/
    - https://robu.in/product/mpu-6050-gyro-sensor-2-accelerometer/
    - https://robu.in/product/orange-360-mah-1s-30c-60c-lithium-polymer-battery-pack-lipo/
