@@ -12,6 +12,9 @@ The PicoW Copter is designed to be a low cost, easy to build, and fun to fly qua
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   harware
+   testing
+   software
 
 
 
