@@ -9,18 +9,25 @@ This is the Official Documentation for the PicoW Copter
 The PicoW Copter is an open source micro sub 60g quadcopter that is controlled using WiFi via a smartphone or computer.
 The PicoW Copter is designed to be a low cost, easy to build, and fun to fly quadcopter.
 
+Hardware
+========
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   harware
+   hardware
+
+Testing
+=======
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
    testing
+
+Software
+========
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
    software
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
