@@ -32,6 +32,7 @@ Bill of Materials
      - si2302 N channel Mosfet
      - 1N4007 Diode
      - Male Pin headers
+     - Female Pin headers
      - XH male connector
      - Push Button
      - BMP 280
