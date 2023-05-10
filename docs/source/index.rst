@@ -33,38 +33,38 @@ Bill of Materials
      - 1 
      - https://robu.in/product/mpu-6050-gyro-sensor-2-accelerometer/ |
    * - 1S 360mAh Lipo Battery 
-   - 1 
-   - https://robu.in/product/orange-360-mah-1s-30c-60c-lithium-polymer-battery-pack-lipo/ |
+     - 1 
+     - https://robu.in/product/orange-360-mah-1s-30c-60c-lithium-polymer-battery-pack-lipo/ |
    * - 720 Coreless Motor 
-   - 4 
-   - https://robu.in/product/8520-magnetic-micro-coreless-motor-for-micro-quadcopters-2xcw-2xccw/ |
+     - 4 
+     - https://robu.in/product/8520-magnetic-micro-coreless-motor-for-micro-quadcopters-2xcw-2xccw/ |
    * - 55mm Propeller (included with motors) 
-   - 4 
-   - https://robu.in/product/8520-magnetic-micro-coreless-motor-for-micro-quadcopters-2xcw-2xccw/ |
+     - 4 
+     - https://robu.in/product/8520-magnetic-micro-coreless-motor-for-micro-quadcopters-2xcw-2xccw/ |
    * - si2302 N channel Mosfet 
-   - 4 
-   - https://www.ktron.in/product/si2302-mosfet-sot23/ |
+     - 4 
+     - https://www.ktron.in/product/si2302-mosfet-sot23/ |
    * - 1N4007 Diode 
-   - 4 
-   - https://robu.in/product/1n4148-surface-mount-zener-diode-pack-of-30/ |
+     - 4 
+     - https://robu.in/product/1n4148-surface-mount-zener-diode-pack-of-30/ |
    * - Male Pin headers 
-   - 44 
-   - https://www.ktron.in/product/header-pins-40x1-2-54mm-pitch-brass/ |
+     - 44 
+     - https://www.ktron.in/product/header-pins-40x1-2-54mm-pitch-brass/ |
    * - Female Pin headers 
-   - 40 
-   - https://www.ktron.in/product/berg-strip-female-2-54mm-brass/ |
+     - 40 
+     - https://www.ktron.in/product/berg-strip-female-2-54mm-brass/ |
    * - XH male connector 
-   - 1 
-   - https://www.ktron.in/product/2pin-jst-xh-male-connector/ |
+     - 1 
+     - https://www.ktron.in/product/2pin-jst-xh-male-connector/ |
    * - Push Button 
-   - 1 
-   - https://www.ktron.in/product/3x6x2-5mm-tactile-switch-smd/ |
+     - 1 
+     - https://www.ktron.in/product/3x6x2-5mm-tactile-switch-smd/ |
    * - BMP 280 
-   - 1 
-   - https://robu.in/product/bmp280-barometric-pressure-and-altitude-sensor-i2c-spi-module/ |
+     - 1 
+     - https://robu.in/product/bmp280-barometric-pressure-and-altitude-sensor-i2c-spi-module/ |
    * - 1S Lipo charger 
-   - 1 
-   - https://robu.in/product/4-port-dc5v-1s-rc-lithium-lipo-battery-compact-balance-charger-rc-quadcopter/ |
+     - 1 
+     - https://robu.in/product/4-port-dc5v-1s-rc-lithium-lipo-battery-compact-balance-charger-rc-quadcopter/ |
 
 Taking Rs 160 for 1 PCB and Rs 160 for 3D printed frame from an online service.
 The total cost of the hardware is just above 2000 INR or 30 USD.
