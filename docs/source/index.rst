@@ -278,42 +278,43 @@ All i2c register addresses can be found in the MPU6050 manual by invensense. Joo
     accZoffset = (int16_t)(az/1000);
   }
 
-void loop() {
-  prev = micros();  // record time when we started reading IMU data
-  // read IMU values
-  Wire.beginTransmission(IMUAddress);
-  Wire.write(0x3B);
-  Wire.endTransmission();
-  Wire.requestFrom(IMUAddress, 14);
+  void loop() {
+    prev = micros();  // record time when we started reading IMU data
+    // read IMU values
+    Wire.beginTransmission(IMUAddress);
+    Wire.write(0x3B);
+    Wire.endTransmission();
+    Wire.requestFrom(IMUAddress, 14);
 
-  while(Wire.available() < 14);
-   
-  accX = Wire.read()<<8|Wire.read();
-  accY = Wire.read()<<8|Wire.read();
-  accZ = Wire.read()<<8|Wire.read();
-  tempRaw = Wire.read()<<8|Wire.read();
-  gyroX = Wire.read()<<8|Wire.read();
-  gyroY = Wire.read()<<8|Wire.read();
-  gyroZ = Wire.read()<<8|Wire.read();   
-  // subtract offset from readings 
-  gyroX -= gyroXoffset;
-  gyroY -= gyroYoffset;
-  gyroZ -= gyroZoffset;
-  accX -= accXoffset;
-  accY -= accYoffset;
-  accZ -= accZoffset;
-  temp = (float)tempRaw;
-  // print data
-  //Serial.printf("AccX = %d, AccY = %d, AccZ = %d, Temp = ", accX, accY, accZ);
-  //Serial.print(temp);  
-  //Serial.printf(", GyroX = %d, GyroY = %d, GyroZ = %d\n", gyroX, gyroY, gyroZ);
-  Serial.printf("Time = %d\n", micros() - prev);
-  delay(250);
-}
+    while(Wire.available() < 14);
+    
+    accX = Wire.read()<<8|Wire.read();
+    accY = Wire.read()<<8|Wire.read();
+    accZ = Wire.read()<<8|Wire.read();
+    tempRaw = Wire.read()<<8|Wire.read();
+    gyroX = Wire.read()<<8|Wire.read();
+    gyroY = Wire.read()<<8|Wire.read();
+    gyroZ = Wire.read()<<8|Wire.read();   
+    // subtract offset from readings 
+    gyroX -= gyroXoffset;
+    gyroY -= gyroYoffset;
+    gyroZ -= gyroZoffset;
+    accX -= accXoffset;
+    accY -= accYoffset;
+    accZ -= accZoffset;
+    temp = (float)tempRaw;
+    // print data
+    //Serial.printf("AccX = %d, AccY = %d, AccZ = %d, Temp = ", accX, accY, accZ);
+    //Serial.print(temp);  
+    //Serial.printf(", GyroX = %d, GyroY = %d, GyroZ = %d\n", gyroX, gyroY, gyroZ);
+    Serial.printf("Time = %d\n", micros() - prev);
+    delay(250);
+  }
 
 
 
 Software
 ========
 
+The main software contains the flight controller.
 
