@@ -101,13 +101,15 @@ Anyone looking to modify the code and hardware is more than welcome to do so.
 Receiver
 --------
 
-The PicoW Copter uses the onboard infenion WiFi chip of the raspberry Pi PicoW to communicate an device (smartphone or computer) through UDP packets.
+The PicoW Copter uses the onboard infenion WiFi chip of the raspberry Pi PicoW to communicate with a device (smartphone or computer) through UDP packets.
 The UDP packets are sent by an APP or software on the device to the PicoW's IP address and port number provided in the Receiver.ino file.
-The static IP address when using the Pi Pico over access point mode (hotspot mode) is 192.168.42.1 by default.  
+The static IP address when using the Pi Pico over access point mode (hotspot mode) is 192.168.1.42 by default.  
 The main motivation for using UDP is real time control of the PicoW Copter. The time taken to read packets is around 200 microseconds.
 
 .. code-block:: arduino
-  
+  :linenos:
+  :alt: Receiver.ino
+
   #include <WiFi.h>
   #include <WiFiUdp.h>
 
@@ -164,8 +166,25 @@ The main motivation for using UDP is real time control of the PicoW Copter. The 
     }   
   }
 
+.. code-block::
+  :alt: Sender.py
+  :linenos:
 
-SoSftware
+  import socket
+  import time
+
+  UDP_IP = "192.168.1.42"
+  UDP_PORT = 8888
+  MESSAGE = "1000100110021003" # sending four 4 digit long numbers
+
+  # creating a UDP socket (UDP is connection less)
+  server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+  while True:
+      server.sendto(MESSAGE.encode('utf-8'), (UDP_IP, UDP_PORT))
+      # sleep for 1 second
+      time.sleep(1)
+
+Software
 ========
 
 
