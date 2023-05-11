@@ -107,8 +107,8 @@ The static IP address when using the Pi Pico over access point mode (hotspot mod
 The main motivation for using UDP is real time control of the PicoW Copter. The time taken to read packets is around 200 microseconds.
 
 
-.. code-block:: cpp
-  :alt: Receiver.ino
+.. code-block:: arduino
+  :linenos:
 
   #include <WiFi.h>
   #include <WiFiUdp.h>
@@ -168,7 +168,7 @@ The main motivation for using UDP is real time control of the PicoW Copter. The 
 
 
 .. code-block:: python
-  :alt: Sender.py
+  :linenos:
 
   import socket
   import time
