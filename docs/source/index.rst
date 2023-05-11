@@ -106,7 +106,7 @@ The UDP packets are sent by an APP or software on the device to the PicoW's IP a
 The static IP address when using the Pi Pico over access point mode (hotspot mode) is 192.168.1.42 by default.  
 The main motivation for using UDP is real time control of the PicoW Copter. The time taken to read packets is around 200 microseconds.
 
-.. code-block:: cpp
+.. code-block::
   :linenos:
   :alt: Receiver.ino
 
@@ -166,7 +166,7 @@ The main motivation for using UDP is real time control of the PicoW Copter. The 
     }   
   }
 
-.. code-block:: python
+.. code-block::
   :alt: Sender.py
   :linenos:
 
