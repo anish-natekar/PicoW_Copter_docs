@@ -41,7 +41,16 @@
               <!-- Local TOC -->
               <div class="local-toc"><ul>
 <li><a class="reference internal" href="#">Welcome to PicoW_Copter_Docs’s documentation!</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li><a class="reference internal" href="#hardware">Hardware</a><ul>
+<li><a class="reference internal" href="#bill-of-materials">Bill of Materials</a></li>
+<li><a class="reference internal" href="#pcb">PCB</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#testing">Testing</a><ul>
+<li><a class="reference internal" href="#receiver">Receiver</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#software">Software</a></li>
 </ul>
 </div>
         </div>
@@ -70,20 +79,116 @@
              
   <section id="welcome-to-picow-copter-docs-s-documentation">
 <h1>Welcome to PicoW_Copter_Docs’s documentation!<a class="headerlink" href="#welcome-to-picow-copter-docs-s-documentation" title="Permalink to this heading"></a></h1>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:docs/source/index.rst
-This is the Official Documentation for the PicoW Copter
+<p>This is the Official Documentation for the PicoW Copter
 The PicoW Copter is an open source micro sub 60g quadcopter that is controlled using WiFi via a smartphone or computer.
 The PicoW Copter is designed to be a low cost, easy to build, and fun to fly quadcopter.</p>
-<div class="toctree-wrapper compound">
+</section>
+<section id="hardware">
+<h1>Hardware<a class="headerlink" href="#hardware" title="Permalink to this heading"></a></h1>
+<p>The Hardware required can be found in the Hardware folder of PicoW Copter project.
+The Harware folders contains a BOM, PCB gerber files, and STL file for the frame.
+The BOM provided contains links for the parts from online indian websites but you can easily find them for other countries as well.</p>
+<section id="bill-of-materials">
+<h2>Bill of Materials<a class="headerlink" href="#bill-of-materials" title="Permalink to this heading"></a></h2>
+<table class="docutils align-default" id="id1">
+<caption><span class="caption-text">BOM</span><a class="headerlink" href="#id1" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Part Name</p></th>
+<th class="head"><p>Quantity</p></th>
+<th class="head"><p>Link</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Raspberry Pi Pico W</p></td>
+<td><p>1</p></td>
+<td><p><a class="reference external" href="https://robu.in/product/raspberry-pi-pico-w/">https://robu.in/product/raspberry-pi-pico-w/</a> |</p></td>
+</tr>
+<tr class="row-odd"><td><p>MPU6050</p></td>
+<td><p>1</p></td>
+<td><p><a class="reference external" href="https://robu.in/product/mpu-6050-gyro-sensor-2-accelerometer/">https://robu.in/product/mpu-6050-gyro-sensor-2-accelerometer/</a> |</p></td>
+</tr>
+<tr class="row-even"><td><p>1S 360mAh Lipo Battery</p></td>
+<td><p>1</p></td>
+<td><p><a class="reference external" href="https://robu.in/product/orange-360-mah-1s-30c-60c-lithium-polymer-battery-pack-lipo/">https://robu.in/product/orange-360-mah-1s-30c-60c-lithium-polymer-battery-pack-lipo/</a> |</p></td>
+</tr>
+<tr class="row-odd"><td><p>720 Coreless Motor</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="https://robu.in/product/8520-magnetic-micro-coreless-motor-for-micro-quadcopters-2xcw-2xccw/">https://robu.in/product/8520-magnetic-micro-coreless-motor-for-micro-quadcopters-2xcw-2xccw/</a> |</p></td>
+</tr>
+<tr class="row-even"><td><p>55mm Propeller (included with motors)</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="https://robu.in/product/8520-magnetic-micro-coreless-motor-for-micro-quadcopters-2xcw-2xccw/">https://robu.in/product/8520-magnetic-micro-coreless-motor-for-micro-quadcopters-2xcw-2xccw/</a> |</p></td>
+</tr>
+<tr class="row-odd"><td><p>si2302 N channel Mosfet</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="https://www.ktron.in/product/si2302-mosfet-sot23/">https://www.ktron.in/product/si2302-mosfet-sot23/</a> |</p></td>
+</tr>
+<tr class="row-even"><td><p>1N4007 Diode</p></td>
+<td><p>4</p></td>
+<td><p><a class="reference external" href="https://robu.in/product/1n4148-surface-mount-zener-diode-pack-of-30/">https://robu.in/product/1n4148-surface-mount-zener-diode-pack-of-30/</a> |</p></td>
+</tr>
+<tr class="row-odd"><td><p>Male Pin headers</p></td>
+<td><p>44</p></td>
+<td><p><a class="reference external" href="https://www.ktron.in/product/header-pins-40x1-2-54mm-pitch-brass/">https://www.ktron.in/product/header-pins-40x1-2-54mm-pitch-brass/</a> |</p></td>
+</tr>
+<tr class="row-even"><td><p>Female Pin headers</p></td>
+<td><p>40</p></td>
+<td><p><a class="reference external" href="https://www.ktron.in/product/berg-strip-female-2-54mm-brass/">https://www.ktron.in/product/berg-strip-female-2-54mm-brass/</a> |</p></td>
+</tr>
+<tr class="row-odd"><td><p>XH male connector</p></td>
+<td><p>1</p></td>
+<td><p><a class="reference external" href="https://www.ktron.in/product/2pin-jst-xh-male-connector/">https://www.ktron.in/product/2pin-jst-xh-male-connector/</a> |</p></td>
+</tr>
+<tr class="row-even"><td><p>Push Button</p></td>
+<td><p>1</p></td>
+<td><p><a class="reference external" href="https://www.ktron.in/product/3x6x2-5mm-tactile-switch-smd/">https://www.ktron.in/product/3x6x2-5mm-tactile-switch-smd/</a> |</p></td>
+</tr>
+<tr class="row-odd"><td><p>BMP 280</p></td>
+<td><p>1</p></td>
+<td><p><a class="reference external" href="https://robu.in/product/bmp280-barometric-pressure-and-altitude-sensor-i2c-spi-module/">https://robu.in/product/bmp280-barometric-pressure-and-altitude-sensor-i2c-spi-module/</a> |</p></td>
+</tr>
+<tr class="row-even"><td><p>1S Lipo charger</p></td>
+<td><p>1</p></td>
+<td><p><a class="reference external" href="https://robu.in/product/4-port-dc5v-1s-rc-lithium-lipo-battery-compact-balance-charger-rc-quadcopter/">https://robu.in/product/4-port-dc5v-1s-rc-lithium-lipo-battery-compact-balance-charger-rc-quadcopter/</a> |</p></td>
+</tr>
+</tbody>
+</table>
+<p>Taking Rs 160 for 1 PCB and Rs 160 for 3D printed frame from an online service.
+The total cost of the hardware is just above 2000 INR or 30 USD.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Most of the hardware won’t be available in small quantities so it is adviced to anyone lloking to build this project to try to build multiple of them either for yourself or a group of friends.</p>
 </div>
 </section>
-<section id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading"></a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
-</ul>
+<section id="pcb">
+<h2>PCB<a class="headerlink" href="#pcb" title="Permalink to this heading"></a></h2>
+<a class="reference internal image-reference" href="_images/PCB.png"><img alt="PCB" class="align-center" src="_images/PCB.png" style="width: 100%;" /></a>
+<p>The PCB Gerber files are given in the <em>PCB_Gerber_PicoW_Copter</em> folder.
+The PCB is a double layered, 4cm X 6cm, 1oz copper, 1.6mm PCB.</p>
+<a class="reference internal image-reference" href="_images/Schematic_PicoW_Copter.png"><img alt="Schematic" class="align-center" src="_images/Schematic_PicoW_Copter.png" style="width: 100%;" /></a>
+</section>
+</section>
+<section id="testing">
+<h1>Testing<a class="headerlink" href="#testing" title="Permalink to this heading"></a></h1>
+<p>Testing script are not only useful to test individual hardware components of the PicoW Copter
+but also a great way to learn how individual components work.
+This project is complex but extremely affordable allowing room for errors and mistakes even for complete beginners.
+Anyone looking to modify the code and hardware is more than welcome to do so.</p>
+<section id="receiver">
+<h2>Receiver<a class="headerlink" href="#receiver" title="Permalink to this heading"></a></h2>
+<p>The PicoW Copter uses the onboard infenion WiFi chip of the raspberry Pi PicoW to communicate with a device (smartphone or computer) through UDP packets.
+The UDP packets are sent by an APP or software on the device to the PicoW’s IP address and port number provided in the Receiver.ino file.
+The static IP address when using the Pi Pico over access point mode (hotspot mode) is 192.168.1.42 by default.
+The main motivation for using UDP is real time control of the PicoW Copter. The time taken to read packets is around 200 microseconds.</p>
+</section>
+</section>
+<section id="software">
+<h1>Software<a class="headerlink" href="#software" title="Permalink to this heading"></a></h1>
 </section>
 
 
