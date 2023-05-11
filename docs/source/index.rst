@@ -69,6 +69,21 @@ Bill of Materials
 Taking Rs 160 for 1 PCB and Rs 160 for 3D printed frame from an online service.
 The total cost of the hardware is just above 2000 INR or 30 USD.
 
+.. note::
+    Most of the hardware won't be available in small quantities so it is adviced to anyone lloking to build this project to try to build multiple of them either for yourself or a group of friends.
+
+PCB
+---
+
+.. image::
+    images/PCB.jpg
+    :width: 100%
+    :align: center
+    :alt: PCB
+
+The PCB Gerber files are given in the *PCB_Gerber_PicoW_Copter* folder.
+
+
 Testing
 =======
 
