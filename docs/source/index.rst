@@ -540,7 +540,7 @@ Once done tap the button such that it says "ON" to indicate that the App has sta
 Now the way you start/ARM the quadcopter is by pulling the throttle joystick (left one) down to zero, moving it to the bottom left corner and back to the bottom center.
 The way you stop/DISARM the quadcopter is by bringing the throttle joystick to the bottom right anf back to center.
 
-.. code-blocks:: arduino
+.. code-block:: arduino
   :linenos:
 
   #include <Wire.h>                          //Include the Wire.h library so we can communicate with the gyro.
