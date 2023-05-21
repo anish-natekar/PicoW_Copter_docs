@@ -9,6 +9,13 @@ This is the Official Documentation for the PicoW Copter
 The PicoW Copter is an open source micro sub 60g quadcopter that is controlled using WiFi via a smartphone or computer.
 The PicoW Copter is designed to be a low cost, easy to build, and fun to fly quadcopter.
 
+About Author
+============
+The Raspberry pi pico W Quadcopter is a project made by Anish Natekar during the summer break after his 3rd semester of BTech
+in Computer Science and Engineering at IIT Goa using the knowledge gained from working on Quadcopters, Robots and RC planes for a about year.
+This project is a way to give back to the community and help others learn about quadcopters, pcb designing, electronics and programming.
+The cost for the harware components project is between Rs 2000 to Rs 2500 (INR) and the list for the componets, pcb gerbers, android APP, quadcopter code is all open source.
+
 Hardware
 ========
 
@@ -451,8 +458,23 @@ front right CCW, front left CW, bottom right CW and bottom left CCW. This script
 motors but also test the direction of rotation of the motors.
 (waiting for PCB to test script)
 
+Battery voltage
+---------------
+
+While flying any quadcopter it is important to keep track of the battery voltage. The battery is a 1S Lipo 360mAh Battery
+and it is important to be careful when using Lipo batteries in any project as special care needs to be taken to prevent
+over discharge (while flying) and over charge (while charging). If you Lipo looks swollen it is recommended to dispose it in
+a controlled manner i.e. first using a large resistance to slowly discharge the Lipo completely and slowly and then burrying it.
+This script reads the battery voltage from the A0 pin and sends the reading over WiFi using UDP to another device.
+
+
+
 Software
 ========
 
 The main software contains the flight controller.
 (Yet to be tested!)
+
+.. toctree::
+  :maxdepth: 2
+  
