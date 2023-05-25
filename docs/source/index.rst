@@ -384,8 +384,8 @@ motors but also test the direction of rotation of the motors.
   }
 
 
-BMP280
-------
+BMP280 (Not yet tested or used in flight controller)
+----------------------------------------------------
 
 The BMP280 is a barometric pressure and temperature sensor. It is used for the altitude hold feature of the PicoW Copter.
 The details for the i2c registers of the BMP280 sensor can be found in the data sheet along with the conversions.
