@@ -337,7 +337,6 @@ according to the PWM signal received.
 The direction of rotation for the motors are same as YMFC or Pixhawk/Arducopter quadcopters i.e.
 front right CCW, front left CW, bottom right CW and bottom left CCW. This script is not only useful to test the
 motors but also test the direction of rotation of the motors.
-(waiting for PCB to test script)
 
 .. code-block:: arduino
   :linenos:
