@@ -525,6 +525,10 @@ LION do have some heavy metals like Cobalt, Copper and Nickle so I assume Lipo b
 water to cause heavy metal poisoning but I am not an expert on this topic so I request anyone interested to do their own research.
 
 This script reads the battery voltage from the A0 pin and sends the reading over WiFi using UDP to another device.
+To test this script download the UDP Monitor APP from play store. Set the Remote IP Address on the APP to 192.168.42.1 and the Local and Remote PORT to 8888.
+Then connect the Battery on the Pico Copter PCB(without the USB cable connected). Find the PicoW Hotspot generated and connect to it using your phone.
+once you ae connected and have disabled any WiFi setting for "connect automatically" on your phone open the APP and type something.
+Every time you send a message the Pico Copter will send the battery voltage reading back to the APP. 
 
 .. code-block:: arduino
   :linenos:
