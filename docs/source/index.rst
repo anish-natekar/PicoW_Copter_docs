@@ -518,7 +518,12 @@ Battery voltage
 While flying any quadcopter it is important to keep track of the battery voltage. The battery is a 1S Lipo 360mAh Battery
 and it is important to be careful when using Lipo batteries in any project as special care needs to be taken to prevent
 over discharge (while flying) and over charge (while charging). If you Lipo looks swollen it is recommended to dispose it in
-a controlled manner i.e. first using a large resistance to slowly discharge the Lipo completely and slowly and then burrying it.
+a controlled manner as provided by the manufacturer i.e. first using a large resistance to slowly discharge the Lipo completely and slowly and then burrying it.
+It is highly prefered to dispose Lithium batteries through some professional recycling service as They are can have long term environmental impacts
+as according to this article [(Go to Pg 4 last para)](https://www.intertek.com/uploadedFiles/Intertek/Divisions/Commercial_and_Electrical/Media/PDF/Battery/Environmental-Considerations-for-Lithium-Batteries-White-Paper.pdf)
+LION do have some heavy metals like Cobalt, Copper and Nickle so I assume Lipo batteries also have these metals and if burried they can reach into the ground
+water to cause heavy metal poisoning but I am not an expert on this topic so I request anyone interested to do their own research.
+
 This script reads the battery voltage from the A0 pin and sends the reading over WiFi using UDP to another device.
 
 
