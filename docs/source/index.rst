@@ -113,7 +113,7 @@ The PCB is a double layered, 4cm X 6cm, 1oz copper, 1.6mm PCB.
 
 .. image::
   images/Schematic_PicoW_Copter.png
-  :width: 200px
+  :width: 80%
   :align: center
   :alt: Schematic
 
@@ -129,7 +129,7 @@ Top view of PCB with Pico W mounted
 
 .. image::
   images/PCB_Top_MPU.jpg
-  :width: 50%
+  :width: 200px
   :align: center
   :alt: PCB_Top_MPU
 
