@@ -88,6 +88,9 @@ Bill of Materials
 Taking Rs 160 for 1 PCB and Rs 160 for 3D printed frame from an online service.
 The total cost of the hardware is just above 2000 INR or 25 USD.
 
+.. note::
+    Most of the hardware won't be available in small quantities so it is adviced to anyone looking to build this project to try to build multiple of them either for yourself or a group of friends.
+
 3D Printed frame
 ----------------
 
@@ -95,9 +98,6 @@ Two 3D printed frames are provided according to the size of the motors you are u
 in PLA with 30% to 40% infill. The frame can be printed without supports. The STL files for the frames can be found in the *3D_Printed_Frame* folder.
 This frame design is taken from the article (https://maker.wiznet.io/ravi_maker/contest/wizfi360-evb-pico-based-smart-phone-controlled-micro-drone-for-stem-education/)
 You can find and print other frames from the internet as well or design your own later.
-
-.. note::
-    Most of the hardware won't be available in small quantities so it is adviced to anyone looking to build this project to try to build multiple of them either for yourself or a group of friends.
 
 PCB
 ---
@@ -116,6 +116,38 @@ The PCB is a double layered, 4cm X 6cm, 1oz copper, 1.6mm PCB.
   :width: 100%
   :align: center
   :alt: Schematic
+
+.. image::
+  images/PCB_Top_pico.jpg
+  :width: 80%
+  :align: center
+  :alt: PCB_Top
+
+Top view of PCB with Pico W mounted
+
+.. image::
+  images/PCB_Top_MPU.jpg
+  :width: 80%
+  :align: center
+  :alt: PCB_Top_MPU
+
+Top view of PCB without Pico W mounted
+
+.. image::
+  images/PCB_Bottom.jpg
+  :width: 80%
+  :align: center
+  :alt: PCB_Bottom
+
+Bottom view of PCB
+
+.. image::
+  images/PCB_SMD_Top.jpg
+  :width: 80%
+  :align: center
+  :alt: PCB_Top_SMD
+
+Top view of PCB with SMD components mounted
 
 Testing
 =======
