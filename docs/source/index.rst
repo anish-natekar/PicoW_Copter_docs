@@ -117,6 +117,8 @@ The PCB is a double layered, 4cm X 6cm, 1oz copper, 1.6mm PCB.
   :align: center
   :alt: Schematic
 
+Schematic for PCB design
+
 .. image::
   images/PCB_Top_pico.jpg
   :width: 50%
