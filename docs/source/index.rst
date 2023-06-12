@@ -46,16 +46,25 @@ Bill of Materials
      - https://robu.in/product/orange-360-mah-1s-30c-60c-lithium-polymer-battery-pack-lipo/ |
    * - 720 Coreless Motor 
      - 4 
-     - https://robu.in/product/8520-magnetic-micro-coreless-motor-for-micro-quadcopters-2xcw-2xccw/ |
-   * - 55mm Propeller (included with motors) 
+     - https://robu.in/product/65mm-blade-propeller-prop-720-cw-ccw-brushed-motor-indoor-racing-drone-quad-copter/ |
+   * - 55mm Propeller (included with motors but I recommend buying extra) 
      - 4 
-     - https://robu.in/product/8520-magnetic-micro-coreless-motor-for-micro-quadcopters-2xcw-2xccw/ |
+     - https://robu.in/product/55mm-blade-propeller-prop-6x15mm-7x20mm-8-5x20mm-coreless-motor-diy-micro-quadcopter/ |
    * - si2302 N channel Mosfet 
      - 4 
      - https://www.ktron.in/product/si2302-mosfet-sot23/ |
    * - 1N4007 Diode 
      - 4 
+     - https://www.ktron.in/product/resistor-300-ohms-5-1-8w-smd-0805/ |
+   * - 300 ohm resistor 
+     - 1 
+     - https://www.ktron.in/product/resistor-10k-ohms-1-1-4w-smd-1206/ |
+   * - 10k ohm resistor 
+     - 4 
      - https://robu.in/product/1n4148-surface-mount-zener-diode-pack-of-30/ |
+   * - 1k ohm resistor 
+     - 1 
+     - https://www.ktron.in/product/resistor-1k-ohms-1-1-4w-smd-1206/ |
    * - Male Pin headers 
      - 44 
      - https://www.ktron.in/product/header-pins-40x1-2-54mm-pitch-brass/ |
