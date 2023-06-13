@@ -149,7 +149,7 @@ Bottom view of PCB
   :align: center
   :alt: PCB_Top_SMD
 
-Top view of PCB with SMD components mounted
+Top view of PCB with SMD components mounted (the Square through hole pads are used to indiacate GND and Circular through hole pads are for Bat+ or others)
 
 Testing
 =======
