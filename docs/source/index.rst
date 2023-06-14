@@ -163,7 +163,7 @@ Receiver
 --------
 
 The PicoW Copter uses the onboard infenion WiFi chip of the raspberry Pi PicoW to communicate with a device (smartphone or computer) through UDP packets.
-The static IP address when using the Pi Pico over access point mode (hotspot mode) is 192.168.1.42 by default.  
+The static IP address when using the Pi Pico over access point mode (hotspot mode) is 192.168.42.1 by default.  
 The main motivation for using UDP is real time control of the PicoW Copter. The time taken to read packets is around 200 microseconds.
 
 
@@ -234,7 +234,7 @@ The UDP packets are sent by an APP or software (in our case this python code) on
   import socket
   import time
 
-  UDP_IP = "192.168.1.42"
+  UDP_IP = "192.168.42.1"
   UDP_PORT = 8888
   MESSAGE = "1000100110021003" # sending four 4 digit long numbers
 
