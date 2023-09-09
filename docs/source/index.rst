@@ -166,7 +166,7 @@ The project details and files can be found in the Hackster.io article written by
     :alt: JoystickController
 
 One flaw about the UDP Joystick Android App that I have noticed is that there is no force feedback.
-This means that you can't feel the center position of the joysticks, and when focussing on quad it's hard to know where center is.
+This means that you can't feel the center position of the joysticks, and when look at quad while flying it's hard to know where center is and you need to judge it according to the motion of the quad.
 Two features I really like is the Lipo charging using the usb C port and the display.
 
 Testing
