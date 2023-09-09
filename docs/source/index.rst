@@ -1152,7 +1152,20 @@ This code is inspired from YMFC-AL project by Joop Brokking. For more details on
     Wire.endTransmission();                                                    //End the transmission with the gyro    
   }
 
+Physical Joystick Controller made by Paul Brace (Optional but recommended)
+==========================================================================
 
+.. image::
+    images/JoystickController.avif
+    :width: 50%
+    :align: center
+    :alt: JoystickController
+
+This is an optional part of the project Because it is a replacement for the Android App used to control the PicoWCopter.
+If you don't have an Android phone or tablet, or you don't want to use it to control the PicoWCopter, you can use this physical joystick controller instead.
+One flaw about the UDP Joystick Android App that I have noticed is that there is no force feedback.
+This means that you can't feel the center position of the joysticks, and when focussing on quad it's hard to know where center is.
+The project details can be found in the (Hackster.io article)[https://www.hackster.io/paulsb/drone-joystick-controller-25e036] written by Paul: 
 
 .. toctree::
   :maxdepth: 2
