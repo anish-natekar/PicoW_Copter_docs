@@ -99,6 +99,9 @@ in PLA with 30% to 40% infill. The frame can be printed without supports. The ST
 This frame design is taken from the article (https://maker.wiznet.io/ravi_maker/contest/wizfi360-evb-pico-based-smart-phone-controlled-micro-drone-for-stem-education/)
 You can find and print other frames from the internet as well or design your own later.
 
+Paul Brace has designed propeller guards for the 8520 motors and the STL files can be found in the *3D_Printed_Frame* folder.
+He has also added a lighter version of the 8520 motor frame which can be found in the same folder.
+
 PCB
 ---
 
